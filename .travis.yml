@@ -1,6 +1,6 @@
 language: java
 
-script: mvn clean compile dependency-check:check checkstyle:checkstyle
+script: mvn test
 
 sudo: false
 
